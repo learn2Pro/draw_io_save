@@ -1,1 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T03:43:16.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.3" etag="aaPlSsIGFkYFeXxUttoO" type="github"><diagram id="JB7IW-WH3_webFm1OCUp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-29T03:43:31.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="lLIXP20GxTL8wwXX9ISr" version="13.8.3" type="github">
+  <diagram id="JB7IW-WH3_webFm1OCUp" name="Page-1">
+    <mxGraphModel dx="1259" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WyvdNpah7RGctYs9x6Oc-1" value="数据接入(source)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WyvdNpah7RGctYs9x6Oc-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574" y="230" as="sourcePoint" />
+            <mxPoint x="634" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyvdNpah7RGctYs9x6Oc-3" value="抽象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WyvdNpah7RGctYs9x6Oc-2">
+          <mxGeometry x="-0.3429" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyvdNpah7RGctYs9x6Oc-4" value="stream source" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="646" y="185" width="104" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="WyvdNpah7RGctYs9x6Oc-5" value="offline source" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="646" y="240" width="104" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
