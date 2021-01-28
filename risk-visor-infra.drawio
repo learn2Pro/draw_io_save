@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T03:48:12.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="xlYlskz9V_PDWxTpJV8n" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T03:53:56.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="LmXms9idFysNqxDg-_x-" version="14.2.7" type="github">
   <diagram id="WpXDFTtTBJNSRBlpLcLN" name="Page-1">
     <mxGraphModel dx="1257" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,14 +24,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="30PJP_qh06dxxzhTbJQh-6" value="统计存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="125" y="480" width="60" height="80" as="geometry" />
+        <mxCell id="30PJP_qh06dxxzhTbJQh-6" value="统计存储&lt;br&gt;GZ: 2t 水位72%&lt;br&gt;SH: 2t 水位72%" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="100" y="480" width="105" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="30PJP_qh06dxxzhTbJQh-7" value="名单存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="250" y="480" width="60" height="80" as="geometry" />
+        <mxCell id="30PJP_qh06dxxzhTbJQh-7" value="名单存储&lt;br&gt;GZ:512g 水位 1%&lt;br&gt;SH:512g 水位 1%" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="250" y="480" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="30PJP_qh06dxxzhTbJQh-8" value="画像存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="380" y="480" width="60" height="80" as="geometry" />
+        <mxCell id="30PJP_qh06dxxzhTbJQh-8" value="画像存储&lt;br&gt;GZ:4t 水位60%&lt;br&gt;SH:4t 水位60%" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="380" y="480" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="30PJP_qh06dxxzhTbJQh-9" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="30PJP_qh06dxxzhTbJQh-3" target="30PJP_qh06dxxzhTbJQh-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
