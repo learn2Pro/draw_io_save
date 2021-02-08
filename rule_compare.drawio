@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T14:03:02.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" version="14.2.9" etag="IZjFa86lqUhVy9nZt0LT" type="github"><diagram id="lepa4yksI7AjMYGmwwFh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-08T14:07:54.499Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="H7spHqBAiN1E2fZJII43" version="14.2.9" type="github">
+  <diagram id="lepa4yksI7AjMYGmwwFh" name="Page-1">
+    <mxGraphModel dx="2084" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vs9hl2ukWs9lSXaCNfWY-1" value="&lt;pre style=&quot;box-sizing: border-box ; overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; padding: 8px 0.5rem ; line-height: 1.6 ; border: none ; width: 450px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;rule &#39;update1&#39;&lt;br/&gt;    when&lt;br/&gt;       $p : People(drlType == &quot;update&quot; &amp;amp;&amp;amp; sex == 0)&lt;br/&gt;    then&lt;br/&gt;        System.out.println(&quot;update1执行====&quot; + $p);&lt;br/&gt;        $p.setSex(1);&lt;br/&gt;        update($p)&lt;br/&gt;    end&lt;br/&gt;rule &#39;update2&#39;&lt;br/&gt;    when&lt;br/&gt;       $p : People(drlType == &quot;update&quot; &amp;amp;&amp;amp; sex == 1)&lt;br/&gt;    then&lt;br/&gt;        System.out.println(&quot;update2执行====&quot; + $p);&lt;br/&gt;    end&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="300" width="500" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs9hl2ukWs9lSXaCNfWY-2" value="Drools" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="250" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs9hl2ukWs9lSXaCNfWY-3" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="730" as="sourcePoint" />
+            <mxPoint x="360" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vs9hl2ukWs9lSXaCNfWY-4" value="&lt;pre style=&quot;box-sizing: border-box ; overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; padding: 8px 0.5rem ; line-height: 1.6 ; border: none ; width: 450px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;rule &#39;update1&#39;&lt;br&gt;  case  when &lt;/span&gt;drlType == &quot;update&quot; and sex == 0 &lt;/pre&gt;&lt;pre style=&quot;box-sizing: border-box ; overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; padding: 8px 0.5rem ; line-height: 1.6 ; border: none ; width: 450px&quot;&gt;then 1 else 2 end&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;    &lt;br&gt;    case when &lt;/span&gt;drlType == &quot;update&quot; &amp;amp;&amp;amp; sex == 1 &lt;/pre&gt;&lt;pre style=&quot;box-sizing: border-box ; overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; padding: 8px 0.5rem ; line-height: 1.6 ; border: none ; width: 450px&quot;&gt;then 1 else 2 end&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="500" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs9hl2ukWs9lSXaCNfWY-5" value="SQL+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="250" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
