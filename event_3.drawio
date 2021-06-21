@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T11:31:04.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ZxNUZU3tvoXeHL8_QMji" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T03:51:00.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="mNcMTeg7tmKa8ySq8dwE" version="14.7.7" type="github">
   <diagram id="O3ywCFSIsU3IzxFeoSF-" name="Page-1">
-    <mxGraphModel dx="1258" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2082" dy="1980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CZqsSSTKb6cRyH_K0-rR-1" value="event1(邀请)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="-50" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CZqsSSTKb6cRyH_K0-rR-2" value="event3(提现)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="310" width="120" height="60" as="geometry" />
@@ -15,20 +15,20 @@
         </mxCell>
         <mxCell id="CZqsSSTKb6cRyH_K0-rR-4" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="130" as="sourcePoint" />
-            <mxPoint x="200" y="130" as="targetPoint" />
+            <mxPoint x="-110" y="130" as="sourcePoint" />
+            <mxPoint x="-50" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CZqsSSTKb6cRyH_K0-rR-5" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="149.5" as="sourcePoint" />
-            <mxPoint x="200" y="149.5" as="targetPoint" />
+            <mxPoint x="-110" y="149.5" as="sourcePoint" />
+            <mxPoint x="-50" y="149.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CZqsSSTKb6cRyH_K0-rR-6" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="170" as="sourcePoint" />
-            <mxPoint x="200" y="170" as="targetPoint" />
+            <mxPoint x="-110" y="170" as="sourcePoint" />
+            <mxPoint x="-50" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CZqsSSTKb6cRyH_K0-rR-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CZqsSSTKb6cRyH_K0-rR-1" target="CZqsSSTKb6cRyH_K0-rR-3" edge="1">
@@ -90,64 +90,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8K72jAy03FJSQNKGbFzH-1" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="230" y="-50" width="60" height="80" as="geometry" />
+          <mxGeometry x="320" y="-50" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8K72jAy03FJSQNKGbFzH-2" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="259.5" y="100" as="sourcePoint" />
-            <mxPoint x="259.5" y="50" as="targetPoint" />
+            <mxPoint x="349.5" y="100" as="sourcePoint" />
+            <mxPoint x="349.5" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8K72jAy03FJSQNKGbFzH-3" value="list存储事件明细，最多保留20条 lpush/lpop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8K72jAy03FJSQNKGbFzH-2" vertex="1" connectable="0">
+        <mxCell id="8K72jAy03FJSQNKGbFzH-3" value="list存储事件明细，最多保留50条 lpush/lpop (压测决定)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8K72jAy03FJSQNKGbFzH-2" vertex="1" connectable="0">
           <mxGeometry x="-0.44" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8K72jAy03FJSQNKGbFzH-4" value="key：uid+事件名称" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="310" y="-10" width="150" height="20" as="geometry" />
+        <mxCell id="8K72jAy03FJSQNKGbFzH-4" value="key：uid+提现事件事件名称&lt;br&gt;value: 写入事件体" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="-40" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8K72jAy03FJSQNKGbFzH-5" value="&lt;b&gt;写入到事件3 assist_number/assist_black_number字段&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="8K72jAy03FJSQNKGbFzH-5" value="&lt;b&gt;写入到事件3 assist_number_${event2}_${code}&lt;br&gt;&lt;/b&gt;&lt;b&gt;&amp;nbsp;assist_number_${event1}_${code}&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="350" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8K72jAy03FJSQNKGbFzH-6" value="event3触发&lt;br&gt;拉取对应邀请事件，过event2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="8K72jAy03FJSQNKGbFzH-6" value="event3触发&lt;br&gt;拉取Redis对应邀请事件，过event2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="298" y="210" width="116" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8K72jAy03FJSQNKGbFzH-8" value="通过rainbow配置对应事件:&lt;br&gt;{&quot;event1&quot;:[&quot;event2&quot;,&quot;event3&quot;],&quot;xxx&quot;:[yyy,zzz]}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="90" width="290" height="270" as="geometry" />
+        <mxCell id="8K72jAy03FJSQNKGbFzH-8" value="通过rainbow配置对应事件:&lt;br&gt;{&quot;event3&quot;:[&quot;event1&quot;,&quot;event2&quot;],&quot;xxx&quot;:[yyy,zzz]}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="590" y="80" width="290" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="ugzkFSp-yqh29wUrH01w-1" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ugzkFSp-yqh29wUrH01w-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="319" y="135" as="sourcePoint" />
-            <mxPoint x="480" y="70" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="429" y="135" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="E_eqaHaKtucu1fXLnEMp-1" value="风控引擎&lt;br&gt;(加入hit_code到事件)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ugzkFSp-yqh29wUrH01w-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugzkFSp-yqh29wUrH01w-3" target="ugzkFSp-yqh29wUrH01w-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ugzkFSp-yqh29wUrH01w-3" value="flink" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="60" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ugzkFSp-yqh29wUrH01w-6" value="统计因子" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="60" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ugzkFSp-yqh29wUrH01w-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ugzkFSp-yqh29wUrH01w-6" target="CZqsSSTKb6cRyH_K0-rR-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="95" as="sourcePoint" />
-            <mxPoint x="650" y="95" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="685" y="150" />
-              <mxPoint x="610" y="150" />
-              <mxPoint x="610" y="340" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ugzkFSp-yqh29wUrH01w-9" value="统计event1的打击次数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugzkFSp-yqh29wUrH01w-8">
-          <mxGeometry x="-0.2529" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="E_eqaHaKtucu1fXLnEMp-2" value="flink&lt;br&gt;(消费含有打击码数据)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="125" width="112" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
