@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T11:24:42.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" version="15.7.0" etag="qzXn6rTc4CzQ2SdJZ-4w" type="github"><diagram id="925ARbxOhNsXbk6KfdUJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-02T11:34:57.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="6I21YtVe68xFPq1LSEIk" version="15.7.0" type="github">
+  <diagram id="925ARbxOhNsXbk6KfdUJ" name="Page-1">
+    <mxGraphModel dx="1255" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UeRkzvZkLOietdt7UbJY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="UeRkzvZkLOietdt7UbJY-5" target="UeRkzvZkLOietdt7UbJY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-5" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="UeRkzvZkLOietdt7UbJY-6" target="UeRkzvZkLOietdt7UbJY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-6" value="Client" style="whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UeRkzvZkLOietdt7UbJY-8" target="UeRkzvZkLOietdt7UbJY-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="480" />
+              <mxPoint x="640" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-12" value="返回等待" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="UeRkzvZkLOietdt7UbJY-11">
+          <mxGeometry x="-0.0044" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="UeRkzvZkLOietdt7UbJY-8" target="UeRkzvZkLOietdt7UbJY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-8" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是否达到拉取间隔&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="465" y="450" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="UeRkzvZkLOietdt7UbJY-13" target="UeRkzvZkLOietdt7UbJY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-13" value="拉取数据" style="whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="UeRkzvZkLOietdt7UbJY-15" target="UeRkzvZkLOietdt7UbJY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-15" value="&amp;nbsp; 拉取成功？" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UeRkzvZkLOietdt7UbJY-15" target="UeRkzvZkLOietdt7UbJY-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="490" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="700" />
+              <mxPoint x="710" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-18" value="返回等待" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="UeRkzvZkLOietdt7UbJY-17">
+          <mxGeometry x="-0.0044" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="UeRkzvZkLOietdt7UbJY-19" target="UeRkzvZkLOietdt7UbJY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-19" value="json协议解析" style="whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeRkzvZkLOietdt7UbJY-21" value="渲染图片" style="whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
