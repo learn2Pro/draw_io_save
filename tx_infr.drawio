@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T09:25:19.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="qtVH6yX3vcLcTNzNYTBH" version="16.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T09:26:10.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="fVOhtwgl0rcy_Licezge" version="16.4.6" type="github">
   <diagram id="LpDmw_v0XFRbQo6Zy4TT" name="Page-1">
     <mxGraphModel dx="2082" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,6 +165,9 @@
         </mxCell>
         <mxCell id="vYiJmPAMhAc7vUvn6BcW-47" value="&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;数据接出&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-250" y="750" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vYiJmPAMhAc7vUvn6BcW-48" value="画像中台 - 一站式运营枢纽" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-230" width="420" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
