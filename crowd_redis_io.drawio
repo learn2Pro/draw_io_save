@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T03:34:23.241Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YLfi3GaAjsOid_enxo3n" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T03:36:15.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="I9lK2U7NDHHClcbXHGfG" version="20.1.1" type="github">
   <diagram id="nBP5FJJqFruhItfetFmz" name="Page-1">
     <mxGraphModel dx="2076" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,24 +25,6 @@
         </mxCell>
         <mxCell id="qozwdUGB5FvsB3uEtykQ-2" value="TAB/VG/PR/银河&lt;br&gt;....." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="290" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qozwdUGB5FvsB3uEtykQ-5" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="104.5" as="sourcePoint" />
-            <mxPoint x="560" y="104.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qozwdUGB5FvsB3uEtykQ-6" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fontStyle=1" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="144.5" as="sourcePoint" />
-            <mxPoint x="560" y="144.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qozwdUGB5FvsB3uEtykQ-7" value="同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="560" y="90" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qozwdUGB5FvsB3uEtykQ-8" value="异步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="560" y="130" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qozwdUGB5FvsB3uEtykQ-9" value="&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;字典&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="600" y="250" width="70" height="276" as="geometry" />
@@ -98,11 +80,6 @@
             <mxPoint x="314" y="325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qozwdUGB5FvsB3uEtykQ-25" value="接出成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="qozwdUGB5FvsB3uEtykQ-24">
-          <mxGeometry x="-0.0638" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="qozwdUGB5FvsB3uEtykQ-27" value="中台消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="645" width="110" height="50" as="geometry" />
         </mxCell>
@@ -111,6 +88,30 @@
             <mxPoint x="314" y="495" as="sourcePoint" />
             <mxPoint x="-25" y="350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qozwdUGB5FvsB3uEtykQ-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="540" y="635" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qozwdUGB5FvsB3uEtykQ-5" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="qozwdUGB5FvsB3uEtykQ-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="14.5" as="sourcePoint" />
+            <mxPoint x="70" y="14.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qozwdUGB5FvsB3uEtykQ-6" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fontStyle=1" edge="1" parent="qozwdUGB5FvsB3uEtykQ-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="54.5" as="sourcePoint" />
+            <mxPoint x="70" y="54.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qozwdUGB5FvsB3uEtykQ-7" value="同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="qozwdUGB5FvsB3uEtykQ-30">
+          <mxGeometry x="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qozwdUGB5FvsB3uEtykQ-8" value="异步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="qozwdUGB5FvsB3uEtykQ-30">
+          <mxGeometry x="70" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qozwdUGB5FvsB3uEtykQ-34" value="接出成功/失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
