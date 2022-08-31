@@ -1,17 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:38:09.895Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-MvDAouUQcScTLpW1XBA" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T08:07:22.883Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0qJG_Hq4K-L6IBbuKWS6" version="20.2.3" type="github">
   <diagram id="cwxhCm63Somnro4JCVdJ" name="第 1 页">
     <mxGraphModel dx="1249" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uui6WPJijUR4WHiSDv8N-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="950" as="sourcePoint" />
-            <mxPoint x="170" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="uui6WPJijUR4WHiSDv8N-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;接入层&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="440" width="130" height="30" as="geometry" />
+          <mxGeometry x="40" y="465" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-4" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;IAS --&amp;gt; CLB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="220" y="457.5" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-5" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;域名 --&amp;gt; DNSPod&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="420" y="457.5" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;服务层&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="602.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="545" width="440" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-8" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;123 --&amp;gt; TKE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="562.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-9" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;镜像 --&amp;gt; Dockerfile&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="330" y="562.5" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-10" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;部署 --&amp;gt; Helm-k8s&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="480" y="562" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-11" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;007 --&amp;gt; Promethus&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="330" y="630" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-12" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;zhiyan --&amp;gt; cls&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="630" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-13" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;rainbow --&amp;gt; configMap&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="480" y="630" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-14" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;计算层&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="755" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="800" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-16" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;spark -&amp;gt; emr(spark)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="827.5" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-17" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;thive -&amp;gt; emr(hive)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="364" y="827.5" width="136" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uui6WPJijUR4WHiSDv8N-18" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;pangu --&amp;gt;&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="690" width="100" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
