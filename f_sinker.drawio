@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T07:03:23.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="f-O0EH4QViUS3j2kWo56" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T07:05:44.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="VxyeS57Q6QsvhOwSNTwp" type="github">
   <diagram id="j24lxPzAHNOHDQMK0Ehx" name="第 1 页">
-    <mxGraphModel dx="2065" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2065" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,6 +264,27 @@
           <mxGeometry x="0.0672" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zK-XE1m4WU7QKJRPk60D-114" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="730" y="-155" width="60" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="zK-XE1m4WU7QKJRPk60D-110" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="zK-XE1m4WU7QKJRPk60D-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="58" as="sourcePoint" />
+            <mxPoint x="60" y="58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zK-XE1m4WU7QKJRPk60D-111" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;dashed=1;" edge="1" parent="zK-XE1m4WU7QKJRPk60D-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="35" as="sourcePoint" />
+            <mxPoint x="60" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zK-XE1m4WU7QKJRPk60D-112" value="&lt;b&gt;异步&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;fontColor=#FF0000;" vertex="1" parent="zK-XE1m4WU7QKJRPk60D-114">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK-XE1m4WU7QKJRPk60D-113" value="&lt;b&gt;同步&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;fontColor=#FF0000;" vertex="1" parent="zK-XE1m4WU7QKJRPk60D-114">
+          <mxGeometry y="65" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
