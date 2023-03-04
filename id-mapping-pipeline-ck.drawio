@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-04T08:12:53.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="leSN4I8GyaId8sumDwn3" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-04T08:18:57.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kMeWbonGovip-55w5zKx" version="20.8.23" type="github">
   <diagram name="第 1 页" id="nkp_MTn814R25akcquSp">
     <mxGraphModel dx="1385" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXcfenjcooxFhSZYw2Mp-19" value="1. 按照id空间分配N个分区，如一百亿id，则分配1000个分区，每个分区负责1000数字的分配，第一分区0-1000万，第二分区1000万-2000万，依次类推" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="lXcfenjcooxFhSZYw2Mp-19" value="1. 按照id空间分配N个分区，如一百亿id，则分配1000个分区，每个分区负责对应数字range=分配，第一分区0-1000万，第二分区1000万-2000万，依次类推" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="440" y="440" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lXcfenjcooxFhSZYw2Mp-21" value="2. T-1用户表 join 当前的分区表，如果该用户已分配id，则保留，可以保证用户id的连续性，如果当前id没分配，根据用户所在的分区以及id范围，分配一个最大id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
