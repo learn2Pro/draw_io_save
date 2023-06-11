@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T03:30:15.243Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.2" etag="s52RHrOdsr1Hlj5gceQd" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-11T03:31:55.299Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wt7Wq-aXBijDxkgK7e8o" version="21.3.2" type="github">
   <diagram name="第 1 页" id="4SoiW52vBTYDnKEjXnNN">
-    <mxGraphModel>
+    <mxGraphModel dx="1523" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8g1g-2gHLXgyaAgZY4Qn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="480" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8g1g-2gHLXgyaAgZY4Qn-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8g1g-2gHLXgyaAgZY4Qn-3" value="OpenAi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="492.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8g1g-2gHLXgyaAgZY4Qn-4" value="PaLM2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="492.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8g1g-2gHLXgyaAgZY4Qn-5" value="LLama" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="492.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8g1g-2gHLXgyaAgZY4Qn-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8g1g-2gHLXgyaAgZY4Qn-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="423" as="sourcePoint" />
+            <mxPoint x="480" y="473" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="463" />
+              <mxPoint x="480" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8g1g-2gHLXgyaAgZY4Qn-8" value="connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8g1g-2gHLXgyaAgZY4Qn-7">
+          <mxGeometry x="0.0599" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8g1g-2gHLXgyaAgZY4Qn-6" value="LLM-Adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
