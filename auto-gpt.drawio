@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T12:02:05.637Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wRz1rA_C9CC9u_dfagAA" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T12:03:47.394Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5fYue4cXccb-RJ21fQrX" version="21.5.2" type="github">
   <diagram name="第 1 页" id="LU-fnr2DJfe2r5053KIv">
     <mxGraphModel dx="908" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,14 +43,14 @@
         <mxCell id="tcQKUcsGEQ5BL62iG16M-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tcQKUcsGEQ5BL62iG16M-9" target="tcQKUcsGEQ5BL62iG16M-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tcQKUcsGEQ5BL62iG16M-9" value="Prompt Generator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tcQKUcsGEQ5BL62iG16M-9" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Prompt&lt;/font&gt;&lt;/b&gt; Generator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="340" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tcQKUcsGEQ5BL62iG16M-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tcQKUcsGEQ5BL62iG16M-12" target="tcQKUcsGEQ5BL62iG16M-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tcQKUcsGEQ5BL62iG16M-12" value="Thinking" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="450" width="150" height="40" as="geometry" />
+        <mxCell id="tcQKUcsGEQ5BL62iG16M-12" value="Thinking&lt;br&gt;&lt;br&gt;(Thought,Action,Critism)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="320" y="430" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="tcQKUcsGEQ5BL62iG16M-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tcQKUcsGEQ5BL62iG16M-12" target="tcQKUcsGEQ5BL62iG16M-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
