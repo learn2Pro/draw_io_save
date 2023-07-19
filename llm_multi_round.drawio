@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T08:20:44.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LZxMftg04N9e30W9IQKj" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T08:23:36.837Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KnK0-wNa2N2Av-Ig42by" version="21.5.2" type="github">
   <diagram name="第 1 页" id="yxuoPLqReGVS53KfzSrc">
-    <mxGraphModel dx="908" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="908" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,19 +127,22 @@
         <mxCell id="WfbSjNrm3QJVXLYPjujV-32" value="指标prompt or 人群分析prompt" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" vertex="1" parent="WfbSjNrm3QJVXLYPjujV-34">
           <mxGeometry y="58" width="285" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="WfbSjNrm3QJVXLYPjujV-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WfbSjNrm3QJVXLYPjujV-30" target="WfbSjNrm3QJVXLYPjujV-24">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="800" as="sourcePoint" />
-            <mxPoint x="570" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WfbSjNrm3QJVXLYPjujV-36" value="messages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WfbSjNrm3QJVXLYPjujV-35">
-          <mxGeometry x="0.0137" y="-2" relative="1" as="geometry">
-            <mxPoint x="-6" y="-4" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WfbSjNrm3QJVXLYPjujV-37" value="&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;openai&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="815" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=18;endSize=7.2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="760" as="sourcePoint" />
+            <mxPoint x="595" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-42" value="messages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WfbSjNrm3QJVXLYPjujV-41">
+          <mxGeometry x="-0.195" y="1" relative="1" as="geometry">
+            <mxPoint x="7" y="-19" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
