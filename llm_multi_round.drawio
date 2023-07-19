@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T07:32:48.395Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.2" etag="MvnGRICaWJUZR0gwCykk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T07:47:28.305Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="B2KOBY6mmW_LtymFQSc2" version="21.5.2" type="github">
   <diagram name="第 1 页" id="yxuoPLqReGVS53KfzSrc">
-    <mxGraphModel>
+    <mxGraphModel dx="908" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-1" value="看看腾讯新闻昨天视频ctr最高的5个业务场景" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-2" value="腾讯新闻DAU趋势" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-3" value="请归因一下第三天的DAU峰值" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-6" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=22.5;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WfbSjNrm3QJVXLYPjujV-6" target="WfbSjNrm3QJVXLYPjujV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <mxPoint x="110" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=22.5;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WfbSjNrm3QJVXLYPjujV-6" target="WfbSjNrm3QJVXLYPjujV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="240" as="sourcePoint" />
+            <mxPoint x="195" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="WfbSjNrm3QJVXLYPjujV-6" target="WfbSjNrm3QJVXLYPjujV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="240" as="sourcePoint" />
+            <mxPoint x="195" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="20" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="WfbSjNrm3QJVXLYPjujV-13" value="session_id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="215" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
